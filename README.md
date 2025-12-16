@@ -1,6 +1,7 @@
 # Analysis_and_plotting_1gX-blips
-Macros for signal/sideband parse/event selection and plotting for inclusive single shower events.
-
+Macros for signal/sideband parse/event selection and plotting for inclusive single shower events. 
+Parse/event selections macro filters events based on bdt's scores, then fill histograms for multiples variables of interest according to additional cuts. Histograms are saved in a root file for further processing. 
+Plotting macros retrieve individual histograms from multiple input root files generated in the previous stage to get stacked, normalized histograms. Format and style of plots may have some variations such as including the ratio between the data and total MC histogramas.   
 
 ## Description and usage
 
@@ -39,5 +40,5 @@ To execute, provide the following argument for a single processing:
 To parse and get event selection for multiple variations, run the executable by sourcing:  `run_anamacro_1gX_blips_signal.sh` and `run_anamacro_1gX_blips_sideband.sh`.
 Output files will be located in the corresponding output directories. These files will be the input for the plotting macros. 
 
- To plot such outcomes, source the `run_IncSP_Nprotons_General.sh`, `run_IncSP_Nprotons_General_0n.sh` or `run_IncSP_Nprotons_General_Nn.sh` accordingly. Inputs should match the outputs of the previous step. Output plots will be saved in a specific output directory self descriptive.  
+ To plot such outcomes, source the `run_IncSP_Nprotons_General.sh`, `run_IncSP_Nprotons_General_0n.sh` or `run_IncSP_Nprotons_General_Nn.sh` accordingly. Inputs should match the outputs of the previous step. Output plots will be saved in a specific output directory in pdf, png and root format.  
 
