@@ -5,7 +5,11 @@
 
 #run4b EXT unbiased 
 
+<<<<<<< HEAD
 ./anamacro_1gX_blips_signal_EXTUnb /path/to/file/surprise/run4b_full_samples/wc_processed/BNB/checkout_MCC9.10_Run4b_BNB_extunbiased_data_surprise_reco2_hist.root Signal true false SIGNAL_EXTUnb
+=======
+./anamacro_1gX_blips_signal_EXTUnb /pnfs/uboone/persistent/users/uboonepro/surprise/run4b_full_samples/wc_processed/BNB/checkout_MCC9.10_Run4b_BNB_extunbiased_data_surprise_reco2_hist.root Signal true false SIGNAL_EXTUnb
+>>>>>>> 40cccb8144cf9b941335a90dc770c558df1539aa
 
 
 #BNB Nu overlay
